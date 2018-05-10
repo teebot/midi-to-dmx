@@ -1,0 +1,20 @@
+
+# MIDI to DMX
+
+
+MIDI-TO-DMX uses node-dmx to connect to DMX devices through USB
+https://github.com/wiedi/node-dmx
+and node-midi.
+
+Tested on a raspberry Pi 3 b+
+
+## raspberry Pi notes
+
+node-dmx depends on node-ftdi.
+If its installation fails be sure to follow the instructions here:
+https://github.com/wiedi/node-dmx/issues/8#issuecomment-92446001
+
+
+node-midi installation requires to have libasound2-dev installed:
+
+`apt install libasound2-dev`
